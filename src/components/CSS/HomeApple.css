@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+.container-geral-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+/* INICIO IPAD PRO */
+.container-ipad-pro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+.box-titulos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 140px;
+}
+.name-ipad{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #f5f5f7;
+}
+.box-tit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.titulo-ipad{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #f5f5f7;
+}
+.box-button{
+    display: flex;
+    gap: 20px;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 90px;
+    border: none;
+    background-color: #0071e3;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #2997ff;
+    color: #2997FF;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-2:hover{
+    background-color: #0071e3;
+    color: #FFFFFF;
+    border: none;
+}
+.image-ipad{
+    width: 100%;
+}
+.image-ipad-1{
+    display: none;
+}
+h1{
+    color: white;
+}
+@media screen and (max-width: 730px){
+    .image-ipad{
+        display: none;
+    }
+    .image-ipad-1{
+        display: flex;
+    }
+}
+
+/* FIM IPAD PRO */
+
+/* INICIO IPAD AIR */
+
+.container-ipad-air{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.box-titulos-air{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    z-index: 50;
+    margin-top: 50px;
+}
+.name-ipad-air{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1D1D1F;
+}
+.air-span{
+    color: #2997FF;
+}
+.titulo-ipad-air{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1D1D1F;
+}
+.box-button-air{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.btn-air-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 90px;
+    border: none;
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-air-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #1D1D1F;
+    color: #1D1D1F;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-air-2:hover{
+    background-color: #1D1D1F;
+    color: #FFFFFF;
+    border: none;
+}
+.image-ipad-air{
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.image-ipad-air-1{
+    display: none;
+    width: 100%;
+}
+.teste{
+    width: 100%;
+    background-color: #5c9af871;
+}
+
+@media screen and (max-width: 730px){
+    .mage-ipad-air{
+        display: none;
+    }
+    .mage-ipad-air-1{
+        display: flex;
+        width: 100%;
+    }
+}
+/* fim */
+
+/* inicio iphone */
+
+.container-iphone-15{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: black;
+}
+
+.image-iphonne{
+    display: flex;
+    width: 100%;
+}
+.image-iphonne-1{
+    display: none;
+    width: 100%;
+}
+@media screen and (max-width: 730px){
+    .image-iphonne{
+        display: none;
+    }
+    .image-iphonne-1{
+        display: flex;
+    }
+}
+/* fim */
+/* inicio iphone 15 NORMAL*/
+
+.container-iphone-15-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(238, 238, 238, 0.618);
+}
+.box-titulos-normal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.name-ipad-normal{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+}
+.titulo-ipad-normal{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+}
+.image-iphonne{
+    display: flex;
+    width: 100%;
+}
+.image-iphonne-1{
+    display: none;
+    width: 100%;
+}
+@media screen and (max-width: 730px){
+    .image-iphonne{
+        display: none;
+    }
+    .image-iphonne-1{
+        display: flex;
+    }
+}
+/* fim */
+
+/* inicio APPLE WATCH AND MACBOOK*/
+
+.box-content-watch-mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 auto;
+    gap: 10px;
+    background-color: black;
+}
+
+.container-apple-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 10px;
+    border: 1px solid grey;
+    background-color: black;
+}
+.box-titulos-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.name-series{
+    font-size: 20px;
+    font-weight: 600;
+    color: red;
+}
+.name-series-1{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.box-image-watch{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.image-watch{
+    width: 100%;
+}
+
+@media screen and (max-width: 730px){
+    .box-content-watch-mac{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 auto;
+        gap: 10px;
+    }
+    .container-apple-watch{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+}
+
+/* FIM */
+
+/* INICIO */
+
+.box-content-mac-vision{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 auto;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.container-apple-watch-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 10px;
+    border: 1px solid grey;
+    background-color: #f5f5f7;
+    
+    
+}
+.container-apple-watch-1-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 10px;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 25px 0;
+}
+.box-titulos-watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.name-ipad-1{
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.002em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+}
+
+.titulo-ipad-normal{
+    font-size: 24px;
+    line-height: 1.16667;
+    font-weight: 400;
+    letter-spacing: .009em;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: black;
+}
+.box-image-watch{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.image-watch{
+    width: 100%;
+}
+
+@media screen and (max-width: 730px){
+    .bbox-content-mac-vision{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 auto;
+        gap: 10px;
+    }
+    .container-apple-watch-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+    .container-apple-watch-1-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 10px;
+        border: 1px solid grey;
+    }
+}
