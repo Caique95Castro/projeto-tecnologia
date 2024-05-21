@@ -9,8 +9,8 @@
         <ul v-if="!isMobile">
           <li class="nav-item"><a href="/" class="nav-link">Início</a></li>
           <li class="nav-item"><a href="/about" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Iphone</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Mac</a></li>
+          <li class="nav-item"><a href="/iphone" class="nav-link">Iphone</a></li>
+          <li class="nav-item"><a href="/mac" class="nav-link">Mac</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Ipad</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Watch</a></li>
           <li class="nav-item"><a href="#" class="nav-link">AirPods</a></li>
@@ -30,8 +30,8 @@
         <ul>
           <li class="nav-item"><a href="/" class="nav-link">Início</a></li>
           <li class="nav-item"><a href="/about" class="nav-link">Sobre</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Iphone</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Mac</a></li>
+          <li class="nav-item"><a href="/iphone" class="nav-link">Iphone</a></li>
+          <li class="nav-item"><a href="/mac" class="nav-link">Mac</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Ipad</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Watch</a></li>
           <li class="nav-item"><a href="#" class="nav-link">AirPods</a></li>

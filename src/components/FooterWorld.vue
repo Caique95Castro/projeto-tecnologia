@@ -7,13 +7,13 @@
             <div class="box-content-footer">
                 <nav class="links-nav">
                     <ul>
-                        <li class="nav-item"><a class="nav-link" href="#">Início</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
                     
                         <li class="nav-item"><a class="nav-link" href="/about">Sobre</a></li>
                     
-                        <li class="nav-item"><a class="nav-link" href="#">Iphone</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/iphone">Iphone</a></li>
                     
-                        <li class="nav-item"><a class="nav-link" href="#">Mac</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/mac">Mac</a></li>
                     
                         <li class="nav-item"><a class="nav-link" href="#">Ipad</a></li>
                     

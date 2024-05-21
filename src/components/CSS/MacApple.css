@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-geral-mac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.box-title{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 100px;
+}
+.box-content-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.video-mac{
+    border-radius: 50px;
+}
+@media screen and (max-width: 730px){
+    .video-mac{
+        width: 100% !important;
+        height: 600px;
+        border-radius: 0;
+    }
+    .titulo-1{
+        margin-left: 20px !important;
+        margin-top: 0 !important;
+    }
+} 
+
+.box-content-mac-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    padding: 50px 50px;
+    gap: 30px;
+}
+.titulo-1{
+    margin-left: 10rem;
+    margin-top: 50px;
+}
+.box-images-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 30px;
+}
+.images-phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    width: 360px;
+}
+.colors-phones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.colors-1,
+.colors-2,
+.colors-3,
+.colors-4,
+.colors-5,
+.colors-6,
+.colors-7,
+.colors-8,
+.colors-9
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 100px;
+    border: 1px solid gray;
+}
+
+
+.box-button{
+    display: flex;
+    gap: 20px;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 40px;
+    border-radius: 90px;
+    border: none;
+    background-color: #0071e3;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btn-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 40px;
+    border-radius: 90px;
+    border: 1px solid #2997ff;
+    color: #2997FF;
+    text-decoration: none;
+    background-color: transparent;
+}
+.btn-2:hover{
+    background-color: #0071e3;
+    color: #FFFFFF;
+    border: none;
+}
