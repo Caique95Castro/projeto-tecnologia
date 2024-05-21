@@ -448,4 +448,11 @@ h1{
         margin-top: 10px;
         border: 1px solid grey;
     }
+    .box-tit-watch-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
 }

@@ -151,7 +151,7 @@
       <div class="container-apple-watch-1">
         <div class="box-titulos-watch">
           <h1 class="name-ipad-1">MacBook Air</h1>
-          <div class="box-tit-watch">
+          <div class="box-tit-watch-1">
             <p class="titulo-ipad-normal">Superfino. Superleve. Superchip M3</p>
           </div>
           <div class="box-button">
@@ -172,7 +172,7 @@
       <div class="container-apple-watch-1-1">
         <div class="box-titulos-watch">
           <h1 class="name-ipad-1">Vision Pro</h1>
-          <div class="box-tit-watch">
+          <div class="box-tit-watch-1">
             <p class="titulo-ipad-normal">Watch the film</p>
             <p class="titulo-ipad-normal">Watch the Guided Tour</p>
           </div>
