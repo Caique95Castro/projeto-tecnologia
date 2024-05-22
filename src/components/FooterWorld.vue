@@ -6,21 +6,13 @@
             </div>
             <div class="box-content-footer">
                 <nav class="links-nav">
-                    <ul>
-                        <li class="nav-item"><a class="nav-link" href="/">Início</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="/about">Sobre</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="/iphone">Iphone</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="/mac">Mac</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="#">Ipad</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="#">Watch</a></li>
-                    
-                        <li class="nav-item"><a class="nav-link" href="#">AirPods</a></li>
-                    </ul>
+                    <router-link class="nav-link" to="/" >Início</router-link>
+                    <router-link class="nav-link" to="/about" >About</router-link>
+                    <router-link class="nav-link" to="/iphone" >Iphone</router-link>
+                    <router-link class="nav-link" to="/mac" >Mac</router-link>
+                    <router-link class="nav-link" to="#" >Ipad</router-link>
+                    <router-link class="nav-link" to="#"  >Watch</router-link>
+                    <router-link class="nav-link" to="#" >AirPods</router-link>
                 </nav>
             </div>
     </div>
@@ -61,12 +53,9 @@ h1{
     justify-content: left;
     flex-direction: column;
     width: 100%;
+    margin-left: 20px;
 }
-.nav-item {
-    margin: 0 1rem;
-    list-style: none;
-    width: 70px;
-  }
+
 .nav-link {
     text-decoration: none;
     color: #3a3a3ab3;

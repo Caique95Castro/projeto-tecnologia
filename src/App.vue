@@ -102,7 +102,6 @@ header {
   .logo {
     display: flex;
     justify-content: space-around;
-    width: 100%;
   }
 
   nav {
@@ -162,6 +161,11 @@ header {
   .container {
     display: flex;
     flex-direction: column;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
 }
 </style>
