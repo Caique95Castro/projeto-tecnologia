@@ -116,7 +116,7 @@ header {
       padding: 10px 0;
 
       &.router-link-exact-active {
-        color: #42b983;
+        color: #0071e3;
       }
     }
   }
