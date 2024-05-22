@@ -1,18 +1,29 @@
 <template>
-  <header :class="{ fixed: isFixed }">
-    <div class="container">
-      <div class="logo">Meu Logo</div>
-      <nav :class="{ open: isOpen }">
-        <router-link to="/" exact>Home</router-link>
-        <router-link to="/about">About</router-link>
-        <router-link to="/iphone">Iphone</router-link>
-        <router-link to="/mac">Mac</router-link>
-      </nav>
-      <div class="hamburger" @click="toggleMenu">
-        <div class="line" v-for="n in 3" :key="n"></div>
+  <div class="container-geral-navbar">
+    <header class="nav-bar" :class="{ fixed: isFixed }">
+      <div class="container">
+        <div class="logo">
+          <router-link class="nav-link-1" to="/"
+            ><ion-icon class="icon-apple" name="logo-apple"></ion-icon
+          ></router-link>
+          <div class="hamburger" @click="toggleMenu">
+            <div class="line" v-for="n in 3" :key="n"></div>
+          </div>
+        </div>
+        
+
+        <nav :class="{ open: isOpen }">
+          <router-link class="nav-link" to="/" exact @click="closeMenu" >Início</router-link>
+          <router-link class="nav-link" to="/about" @click="closeMenu">About</router-link>
+          <router-link class="nav-link" to="/iphone" @click="closeMenu">Iphone</router-link>
+          <router-link class="nav-link" to="/mac" @click="closeMenu">Mac</router-link>
+          <router-link class="nav-link" to="#" @click="closeMenu">Ipad</router-link>
+          <router-link class="nav-link" to="#"  @click="closeMenu">Watch</router-link>
+          <router-link class="nav-link" to="#" @click="closeMenu">AirPods</router-link>
+        </nav>
       </div>
-    </div>
-  </header>
+    </header>
+  </div>
   <router-view />
 </template>
 
@@ -21,27 +32,49 @@ export default {
   data() {
     return {
       isOpen: false,
-      isFixed: false
+      isFixed: false,
     };
   },
   methods: {
     toggleMenu() {
       this.isOpen = !this.isOpen;
     },
+    closeMenu() {
+      this.isOpen = false;
+    },
     handleScroll() {
       this.isFixed = window.scrollY > 50;
-    }
+    },
   },
   mounted() {
-    window.addEventListener('scroll', this.handleScroll);
+    window.addEventListener("scroll", this.handleScroll);
   },
   beforeUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
+    window.removeEventListener("scroll", this.handleScroll);
+  },
 };
 </script>
 
 <style scoped lang="scss">
+.container-geral-navbar {
+  background-color: #161617cc;
+  box-shadow: 0px 3px 10px #464646;
+  position: fixed; /* Adicionando position: fixed para fixar a barra de menu no topo */
+  width: 100%; /* Definindo a largura da barra de menu para 100% da largura da janela */
+  z-index: 1000;
+}
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+}
+.icon-apple {
+  color: white;
+  width: 25px;
+  height: 25px;
+}
+
 header {
   background: #333;
   color: #fff;
@@ -59,18 +92,23 @@ header {
 
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 0 20px;
+    gap: 20px;
+    width: 100%;
   }
 
   .logo {
-    font-size: 24px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
   }
 
   nav {
     display: none;
     flex-direction: column;
+    align-items: center;
 
     a {
       font-weight: bold;
@@ -101,7 +139,7 @@ header {
     }
   }
 
-  @media (min-width: 768px) {
+  @media (min-width: 730px) {
     .hamburger {
       display: none;
     }
@@ -118,6 +156,12 @@ header {
     nav.open {
       display: flex;
     }
+  }
+}
+@media screen and (max-width: 730px) {
+  .container {
+    display: flex;
+    flex-direction: column;
   }
 }
 </style>
